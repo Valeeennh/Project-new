@@ -52,13 +52,8 @@
 												</div>
 												<div class="mt-5 d-sm-flex align-items-center">
 													<div>
-														<h3 class="fw-semibold mb-1">Alison Robert</h3>
-                                                        <p class="mb-0 fw-semibold text-muted-dark">Tanggal lahir</p>
-                                                        <p class="mb-0 fw-semibold text-muted-dark">Gender</p>
-														<div class="mb-2">
-															<span class="badge badge-light fw-semibold text-dark fs-12">Fulltime</span>
-															<span class="badge badge-light fw-semibold text-dark fs-12">Jobdesk</span>
-														</div>
+														<h3 class="fw-semibold mb-1">Nama Perusahaan</h3>
+
 													</div>
 													<div class="ms-auto">
 														<div class="d-md-flex">
@@ -108,59 +103,38 @@
 													<div class="card border-0">
 														<div class="card-body p-0">
 															<div class="p-4">
-																<h3 class="card-title mb-0">Personal Information</h3>
+																<h3 class="card-title mb-0">Company Information</h3>
 															</div>
 															<div class="border-top"></div>
 															<div class="p-4">
 																<p class="mb-0 fw-semibold">
-																 Alison Robert.
+																 Detail : Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor laudantium ad impedit consequatur porro voluptatibus necessitatibus maiores magni culpa, reprehenderit obcaecati adipisci laborum nesciunt quidem doloribus dolorem exercitationem unde ipsa.
 																</p>
 																<p class="mb-0 fw-semibold">
-																	Tanggal lahir : 14-00-99
-																</p>
-                                                                <p class="mb-0 fw-semibold">
-																	Jenis Kelamin : Laki-Laki
-																</p>
+																	Alamat : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quod, beatae quas facere sapiente inventore omnis eius illum similique iste! Adipisci facere laboriosam cupiditate quasi tempore ipsum inventore? Perspiciatis, laborum.
+
+                                                                </p>
 																<p class="fw-semibold mb-0">
-																	Alamat :
+																	Parent :
+																</p>
+                                                                <p class="fw-semibold mb-0">
+																	Head : employee id
 																</p>
 															</div>
 															<div class="border-top"></div>
 															<div class="p-4">
-																<h6 class="text-uppercase fw-semibold mb-3">Skills</h6>
-																<span class="badge badge-gradient-primary mb-3 mb-sm-0">HTML</span>
-																<span class="badge badge-gradient-primary mb-3 mb-sm-0">CSS</span>
-																<span class="badge badge-gradient-primary mb-3 mb-sm-0">Javascript</span>
-																<span class="badge badge-gradient-primary mb-3 mb-sm-0">Jquery</span>
-																<span class="badge badge-gradient-primary mb-3 mb-sm-0">Adobe Photoshop</span>
-																<span class="badge badge-gradient-primary mb-3 mb-sm-0">Figma</span>
+																<h6 class="text-uppercase fw-semibold mb-3">Type</h6>
+																<span class="badge badge-gradient-primary mb-3 mb-sm-0">Head Office</span>
+
 															</div>
 
 															<div class="border-top"></div>
 															<div class="p-4">
-																<h6 class="text-uppercase fw-semibold mb-3">Contact Details</h6>
+
 																<div class="d-md-flex">
-																	<div class="d-flex align-top me-5 mb-3 mb-sm-0">
-																		<span><i class="fe fe-phone border p-3 rounded-circle fs-6 op7 text-dark"></i></span>
-																		<div class="ms-3 mb-2">
-																			<p class="mb-0 fw-semibold">Mobile</p>
-																			<span class="text-muted">+(62)-88662666</span>
-																		</div>
-																	</div>
-                                                                    <div class="d-flex align-top me-5 mb-3 mb-sm-0">
-																		<span><i class="fe fe-phone border p-3 rounded-circle fs-6 op7 text-dark"></i></span>
-																		<div class="ms-3 mb-2">
-																			<p class="mb-0 fw-semibold">Home phone</p>
-																			<span class="text-muted">+(62)-88662666</span>
-																		</div>
-																	</div>
-																	<div class="d-flex align-top me-5 mb-3 mb-sm-0">
-																		<span><i class="fe fe-mail border p-3 rounded-circle fs-6 op7 text-dark"></i></span>
-																		<div class="ms-3 mb-2">
-																			<p class="mb-0 fw-semibold">Private email</p>
-																			<span class="text-muted">alisonrobert@gmail.com</span>
-																		</div>
-																	</div>
+
+
+
                                                                     <div class="d-flex align-top me-5 mb-3 mb-sm-0">
 																		<span><i class="fe fe-mail border p-3 rounded-circle fs-6 op7 text-dark"></i></span>
 																		<div class="ms-3 mb-2">
@@ -173,34 +147,19 @@
 															</div>
 															<div class="border-top"></div>
 															<div class="p-4">
-																<h6 class="text-uppercase fw-semibold mb-3">Social Media</h6>
+
 																<div class="d-md-flex">
-																	<div class="d-flex align-top me-4 mb-3 mb-md-0">
-																		<span><i class="fe fe-gitlab border text-dark p-3 rounded-circle fs-6 op7"></i></span>
-																		<div class="ms-3  mb-2">
-																			<p class="mb-0 fw-semibold">Github</p>
-																			<a href="javascript:void(0);" class="text-muted-dark">github.com/spruko</a>
-																		</div>
-																	</div>
-																	<div class="d-flex align-top me-4 mb-3 mb-md-0">
-																		<span><i class="fe fe-twitter border text-dark p-3 rounded-circle fs-6 op7"></i></span>
-																		<div class="ms-3  mb-2">
-																			<p class="mb-0 fw-semibold">Twitter</p>
-																			<a href="javascript:void(0);" class="text-muted-dark">twitter.com/spruko.me</a>
-																		</div>
-																	</div>
-																	<div class="d-flex align-top">
-																		<span><i class="fe fe-linkedin border text-dark p-3 rounded-circle fs-6 op7"></i></span>
-																		<div class="ms-3  mb-2">
-																			<p class="mb-0 fw-semibold">Linkedin</p>
-																			<a href="javascript:void(0);" class="text-muted-dark">spruko.com/</a>
-																		</div>
-																	</div>
+
+
 																</div>
 															</div>
 														</div>
 													</div>
 												</div>
+
+
+
+                                                {{-- CRUD --}}
 												<div class="tab-pane p-0" id="style6tab2">
 													<div class="card overflow-hidden border-0">
 														<div class="card-body">
@@ -210,16 +169,19 @@
 																	<a href="javascript:void(0);" class="btn btn-sm btn-danger">Discard</a>
 																</div>
 															</div>
-															<form class="form-horizontal">
-																<h6 class="text-uppercase fw-semibold mb-3">User Name</h6>
+															<form class="form-horizontal needs-validation" novalidate>
+																<h6 class="text-uppercase fw-semibold mb-3">Name Office</h6>
 																<div class="form-group">
 																	<div class="row row-sm">
 																		<div class="col-md-3">
 																			<label class="form-label fw-semibold text-muted-dark">First Name</label>
 																		</div>
 																		<div class="col-md-9">
-																			<input type="text" class="form-control"
-																				placeholder="First Name" value="Alison">
+																			<input type="text" class="form-control" id="validationCustom01"
+                                                                     value="Mark" required>
+                                                                  <div class="valid-feedback">
+                                                                   Looks good!
+                                                                      </div>
 																		</div>
 																	</div>
 																</div>
@@ -229,8 +191,11 @@
 																			<label class="form-label fw-semibold text-muted-dark">last Name</label>
 																		</div>
 																		<div class="col-md-9">
-																			<input type="text" class="form-control"
-																				placeholder="Last Name" value="Robert">
+																			<input type="text" class="form-control" id="validationCustom01"
+                                                                                         value="Mark" required>
+                                                              <div class="valid-feedback">
+                                                                      Looks good!
+                                                                                     </div>
 																		</div>
 																	</div>
 																</div>
@@ -249,97 +214,26 @@
 																		</div>
 																	</div>
 																</div>
-																{{-- birth --}}
-                                                                <div class="form-group ">
-																	<div class="row row-sm">
-																		<div class="col-md-3">
-																			<label class="form-label fw-semibold text-muted-dark text-uppercase fw-semibold">Birth</label>
-																		</div>
-																		<div class="col-md-9">
-																			<input placeholder="14/02/2002" class="form-control" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date">
-																		</div>
-																	</div>
-																</div>
-
 
 
 																<div class="form-group ">
 																	<div class="row row-sm">
 																		<div class="col-md-3">
-																			<label class="form-label fw-semibold text-muted-dark">Gender</label>
+																			<label class="form-label fw-semibold text-muted-dark">Detail</label>
 																		</div>
 																		<div class="col-md-9">
-																			<input type="text" class="form-control"
-																				placeholder="Designation" value="UI/UX Designer">
+
+
+                                                                            <textarea class="form-control" id="validationTextarea"
+                                                                            placeholder="Required example textarea" required></textarea><div class="valid-feedback">
+                                                    Looks good!
+                                                </div>
 																		</div>
 																	</div>
 																</div>
-                                                                <div class="form-group ">
-																	<div class="row row-sm">
-																		<div class="col-md-3">
-																			<label class="form-label fw-semibold text-muted-dark">Marital status</label>
-																		</div>
-																		<div class="col-md-9">
-																			<input type="text" class="form-control"
-																				placeholder="Designation" value="UI/UX Designer">
-																		</div>
-																	</div>
-																</div>
-                                                                <div class="form-group ">
-																	<div class="row row-sm">
-																		<div class="col-md-3">
-																			<label class="form-label fw-semibold text-muted-dark">Employe status</label>
-																		</div>
-																		<div class="col-md-9">
-																			<input type="text" class="form-control"
-																				placeholder="Designation" value="UI/UX Designer">
-																		</div>
-																	</div>
-																</div>
-                                                                <div class="form-group ">
-																	<div class="row row-sm">
-																		<div class="col-md-3">
-																			<label class="form-label fw-semibold text-muted-dark">Department</label>
-																		</div>
-																		<div class="col-md-9">
-																			<input type="text" class="form-control"
-																				placeholder="Designation" value="UI/UX Designer">
-																		</div>
-																	</div>
-																</div>
-                                                                <div class="form-group ">
-																	<div class="row row-sm">
-																		<div class="col-md-3">
-																			<label class="form-label fw-semibold text-muted-dark">Job tittle</label>
-																		</div>
-																		<div class="col-md-9">
-																			<input type="text" class="form-control"
-																				placeholder="Designation" value="UI/UX Designer">
-																		</div>
-																	</div>
-																</div>
-                                                                <div class="form-group ">
-																	<div class="row row-sm">
-																		<div class="col-md-3">
-																			<label class="form-label fw-semibold text-muted-dark">Joined date</label>
-																		</div>
-																		<div class="col-md-9">
-																			<input type="text" class="form-control"
-																				placeholder="Designation" value="UI/UX Designer">
-																		</div>
-																	</div>
-																</div>
-                                                                <div class="form-group ">
-																	<div class="row row-sm">
-																		<div class="col-md-3">
-																			<label class="form-label fw-semibold text-muted-dark">Termination date</label>
-																		</div>
-																		<div class="col-md-9">
-																			<input type="text" class="form-control"
-																				placeholder="Designation" value="UI/UX Designer">
-																		</div>
-																	</div>
-																</div>
+
+
+
                                                                 <h6 class="text-uppercase fw-semibold mb-3">Addres</h6>
                                                                 <div class="form-group ">
 																	<div class="row row-sm">
@@ -388,11 +282,11 @@
 
 
 
-																<h6 class="text-uppercase fw-semibold mb-3">Contact</h6>
+
 																<div class="form-group ">
 																	<div class="row row-sm">
 																		<div class="col-md-3">
-																			<label class="form-label fw-semibold text-muted-dark">Work email</label>
+																			<label class="form-label fw-semibold text-muted-dark">Parent structure</label>
 																		</div>
 																		<div class="col-md-9">
 																			<input type="text" class="form-control" placeholder="Email"
@@ -403,44 +297,11 @@
                                                                 <div class="form-group ">
 																	<div class="row row-sm">
 																		<div class="col-md-3">
-																			<label class="form-label fw-semibold text-muted-dark">Private email</label>
+																			<label class="form-label fw-semibold text-muted-dark">Head</label>
 																		</div>
 																		<div class="col-md-9">
 																			<input type="text" class="form-control" placeholder="Email"
 																				value="info@Rob.in">
-																		</div>
-																	</div>
-																</div>
-																<div class="form-group ">
-																	<div class="row row-sm">
-																		<div class="col-md-3">
-																			<label class="form-label fw-semibold text-muted-dark">Home phone</label>
-																		</div>
-																		<div class="col-md-9">
-																			<input type="text" class="form-control"
-																				placeholder="Website" value="@spruko.w">
-																		</div>
-																	</div>
-																</div>
-																<div class="form-group ">
-																	<div class="row row-sm">
-																		<div class="col-md-3">
-																			<label class="form-label fw-semibold text-muted-dark">Mobile phone</label>
-																		</div>
-																		<div class="col-md-9">
-																			<input type="text" class="form-control"
-																				placeholder="phone number" value="+125 3545654">
-																		</div>
-																	</div>
-																</div>
-																<div class="form-group ">
-																	<div class="row row-sm">
-																		<div class="col-md-3">
-																			<label class="form-label fw-semibold text-muted-dark">Status</label>
-																		</div>
-																		<div class="col-md-9">
-																			<input type="text" class="form-control"
-																				placeholder="aktif" value="" disabled>
 																		</div>
 																	</div>
 																</div>

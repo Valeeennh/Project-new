@@ -62,7 +62,7 @@
                                                                     <div class="form-group">
                                                                         <label class="form-label">Nama pegawai</label>
                                                                         <input type="text" class="form-control" name="example-text-input"
-                                                                            placeholder="UDIN PETOT" disabled>
+                                                                            placeholder="UDIN " disabled>
                                                                     </div>
 
 

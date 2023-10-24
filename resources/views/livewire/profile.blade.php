@@ -48,7 +48,7 @@
 											<div class="profile-bg h-250 cover-image" data-bs-image-src="{{asset('build/assets/images/photos/30.jpg')}}"></div>
 											<div class="py-4 position-relative">
 												<div class="profile-img">
-													<img src="{{asset('build/assets/images/users/male/24.jpg')}}" class="avatar avatar-xxl br-7" alt="person-image">
+													<img  src="{{asset('build/assets/images/mu.png')}}" class="avatar avatar-xxl br-7" alt="person-image">
 												</div>
 												<div class="mt-5 d-sm-flex align-items-center">
 													<div>
@@ -269,8 +269,12 @@
 																			<label class="form-label fw-semibold text-muted-dark">Gender</label>
 																		</div>
 																		<div class="col-md-9">
-																			<input type="text" class="form-control"
-																				placeholder="Designation" value="UI/UX Designer">
+																			<select class="form-select select2" id="validationCustom04" required>
+                                                                                <option selected disabled value="">Choose...</option>
+                                                                                <option>Laki-laki</option>
+                                                                                <option>Wanita</option>
+
+                                                                            </select>
 																		</div>
 																	</div>
 																</div>
@@ -291,8 +295,16 @@
 																			<label class="form-label fw-semibold text-muted-dark">Employe status</label>
 																		</div>
 																		<div class="col-md-9">
-																			<input type="text" class="form-control"
-																				placeholder="Designation" value="UI/UX Designer">
+																			<select class="form-select select2" id="validationCustom04" required>
+                                                                                <option selected disabled value="">Choose...</option>
+                                                                                <option>Fulltime </option>
+                                                                                <option>Internship</option>
+                                                                                <option>Permanent</option>
+                                                                                <option>Part Time</option>
+                                                                                <option>Contract</option>
+
+
+                                                                            </select>
 																		</div>
 																	</div>
 																</div>
@@ -439,8 +451,12 @@
 																			<label class="form-label fw-semibold text-muted-dark">Status</label>
 																		</div>
 																		<div class="col-md-9">
-																			<input type="text" class="form-control"
-																				placeholder="aktif" value="" disabled>
+																			<select class="form-select select2" id="validationCustom04" required>
+                                                                                <option selected disabled value="">Choose...</option>
+                                                                                <option>Active</option>
+                                                                                <option>Deactive</option>
+
+                                                                            </select>
 																		</div>
 																	</div>
 																</div>
