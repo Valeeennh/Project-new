@@ -89,10 +89,6 @@
 													<a class="dropdown-item text-dark fw-semibold border-top" href="{{url('profile')}}">
 														<i class="dropdown-icon fe fe-user"></i> Profile
 													</a>
-													<a class="dropdown-item text-dark fw-semibold" href="{{url('email-inbox')}}">
-														<i class="dropdown-icon fe fe-mail"></i> Inbox
-														<span class="badge bg-success float-end">3</span>
-													</a>
 													<a class="dropdown-item text-dark fw-semibold" href="{{url('settings')}}">
 														<i class="dropdown-icon fe fe-settings"></i> Settings
 													</a>

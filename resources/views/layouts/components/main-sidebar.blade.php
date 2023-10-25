@@ -48,10 +48,9 @@
 														<ul class="sidemenu-list">
 															<li class="side-menu-label1"><a href="javascript:void(0)">Dashboards</a></li>
 															<li><a class="slide-item" href="{{url('index')}}">Absensi</a></li>
-															<li><a class="slide-item" href="{{url('datatable')}}">Data pegawai</a></li>
-															<li><a class="slide-item" href="{{url('company')}}">Company</a></li>
-															<li><a class="slide-item" href="{{url('index4')}}">Medical</a></li>
-															<li><a class="slide-item" href="{{url('index5')}}">Crypto</a></li>
+															<li><a class="slide-item" href="{{url('datatable')}}">Data Pegawai</a></li>
+															<li><a class="slide-item" href="{{url('index4')}}">Data Company</a></li>
+															<li><a class="slide-item" href="{{url('timer')}}">Timestamp</a></li>
 														</ul>
 														<div class="resp-tab-content-active">
 															<h6 class="fw-semibold mb-4">Active Users</h6>

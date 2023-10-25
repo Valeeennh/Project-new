@@ -42,16 +42,6 @@
 													class="btn btn-link box-shadow-0 px-0">Forgot password?</a>
 											</div>
 										</div>
-										<div class="mt-6 btn-list">
-											<button type="button" class="btn btn-icon btn-facebook"><i
-													class="fa fa-facebook"></i></button>
-											<button type="button" class="btn btn-icon btn-google"><i
-													class="fa fa-google"></i></button>
-											<button type="button" class="btn btn-icon btn-twitter"><i
-													class="fa fa-twitter"></i></button>
-											<button type="button" class="btn btn-icon btn-dribbble"><i
-													class="fa fa-dribbble"></i></button>
-										</div>
 									</div>
 								</div>
 							</div>

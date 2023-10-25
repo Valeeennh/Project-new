@@ -136,7 +136,15 @@ Route::get('index', Index::class);
 Route::get('index2', Index2::class);
 Route::get('company', Index3::class);
 Route::get('index4', Index4::class);
-Route::get('index5', Index5::class);
+Route::get('timer', Index5::class);
+Route::get('datatable', Datatable::class);
+Route::get('profile', Profile::class);
+Route::get('login', Login::class);
+Route::get('forgot-password', ForgotPassword::class);
+
+// ROUTE USE
+
+
 Route::get('about', About::class);
 Route::get('accordion', Accordion::class);
 Route::get('add-product', AddProduct::class);
@@ -166,7 +174,6 @@ Route::get('colors', Colors::class);
 Route::get('construction', Construction::class);
 Route::get('counters', Counters::class);
 Route::get('crypto-currencies', CryptoCurrencies::class);
-Route::get('datatable', Datatable::class);
 Route::get('dropdown', Dropdown::class);
 Route::get('email-compose', EmailCompose::class);
 Route::get('email-inbox', EmailInbox::class);
@@ -184,7 +191,6 @@ Route::get('filemanager-details', FilemanagerDetails::class);
 Route::get('filemanager-list', FilemanagerList::class);
 Route::get('filemanager', Filemanager::class);
 Route::get('footers', Footers::class);
-Route::get('forgot-password', ForgotPassword::class);
 Route::get('form-advanced', FormAdvanced::class);
 Route::get('form-editor', FormEditor::class);
 Route::get('form-elements', FormElements::class);
@@ -207,7 +213,6 @@ Route::get('invoice', Invoice::class);
 Route::get('listgroup', Listgroup::class);
 Route::get('loaders', Loaders::class);
 Route::get('lockscreen', Lockscreen::class);
-Route::get('login', Login::class);
 Route::get('maps', Maps::class);
 Route::get('maps1', Maps1::class);
 Route::get('maps2', Maps2::class);
@@ -220,7 +225,6 @@ Route::get('offcanvas', Offcanvas::class);
 Route::get('pagination', Pagination::class);
 Route::get('pricing', Pricing::class);
 Route::get('product-details', ProductDetails::class);
-Route::get('profile', Profile::class);
 Route::get('progress', Progress::class);
 Route::get('rangeslider', Rangeslider::class);
 Route::get('rating', Rating::class);

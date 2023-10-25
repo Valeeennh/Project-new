@@ -60,7 +60,9 @@
                                                             <div class="row">
                                                                 <div class="col-xl-6">
                                                                     <div class="form-group">
-                                                                        <label class="form-label">Nama pegawai</label>
+                                                                        <div class="card-title">
+                                                                            Nama Pegawai
+                                                                        </div>
                                                                         <input type="text" class="form-control" name="example-text-input"
                                                                             placeholder="UDIN " disabled>
                                                                     </div>
@@ -70,6 +72,51 @@
                                                                         {{-- FORM --}}
                                                                         <form class="was-validated">
 
+                                                                                        <div class="card-title">
+                                                                                            Time in
+                                                                                        </div>
+
+                                                                                    <div class="card-body">
+                                                                                        <div class="form-group">
+                                                                                            <div class="input-group">
+                                                                                                <div class="input-group-text">
+                                                                                                    <i class="typcn typcn-stopwatch tx-24 lh--9 op-6"></i>
+                                                                                                </div>
+                                                                                                <input type="text" class="form-control" id="limittime"
+                                                                                                    placeholder="choose time min 16:00 to max 22:30">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                        <div class="card-title">
+                                                                                            Time out
+                                                                                        </div>
+
+                                                                                    <div class="card-body">
+                                                                                        <div class="form-group">
+                                                                                            <div class="input-group">
+                                                                                                <div class="input-group-text">
+                                                                                                    <i class="typcn typcn-stopwatch tx-24 lh--9 op-6"></i>
+                                                                                                </div>
+                                                                                                <input type="text" class="form-control" id="limittime"
+                                                                                                    placeholder="choose time min 16:00 to max 22:30">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <label for="">Latitude</label>
+                                                                            <div class="form-check">
+                                                                                <input type="text" class="form-control" id="validationFormCheck2"
+                                                                                     required disabled>
+                                                                                </label>
+                                                                            </div>
+
+                                                                            <label for="">Longtitude</label>
+                                                                            <div class="form-check">
+                                                                                <input type="text" class="form-control" id="validationFormCheck2"
+                                                                                     required disabled>
+                                                                                </label>
+                                                                            </div>
 
 
                                                                             <label for="">Absensi dapat dilakukan pada jam 08:00 - 08:30</label>
@@ -151,6 +198,34 @@
         <script src="{{asset('build/assets/plugins/datatable/js/dataTables.bootstrap5.js')}}"></script>
         <script src="{{asset('build/assets/plugins/datatable/dataTables.responsive.min.js')}}"></script>
         <script src="{{asset('build/assets/plugins/datatable/responsive.bootstrap5.min.js')}}"></script>
+        <script src="{{asset('build/assets/plugins/time-picker/jquery.timepicker.js')}}"></script>
+        <script src="{{asset('build/assets/plugins/time-picker/toggles.min.js')}}"></script>
+
+        <!-- FLATPICKER JS -->
+        <script src="{{asset('build/assets/plugins/flatpickr/flatpickr.js')}}"></script>
+        @vite('resources/assets/js/flatpickr.js')
+
+
+        <!-- DATEPICKER JS -->
+        <script src="{{asset('build/assets/plugins/spectrum-date-picker/spectrum.js')}}"></script>
+        <script src="{{asset('build/assets/plugins/spectrum-date-picker/jquery-ui.js')}}"></script>
+        <script src="{{asset('build/assets/plugins/input-mask/jquery.maskedinput.js')}}"></script>
+
+        <!-- MULTIPLE SELECT JS -->
+        <script src="{{asset('build/assets/plugins/multipleselect/multiple-select.js')}}"></script>
+        <script src="{{asset('build/assets/plugins/multipleselect/multi-select.js')}}"></script>
+
+        <!-- INTERNAL COLOR PICKER JS -->
+        <script src="{{asset('build/assets/plugins/colorpicker/pickr.es5.min.js')}}"></script>
+        @vite('resources/assets/js/colorpicker.js')
+
+
+        <!-- SELECT2 JS -->
+        <script src="{{asset('build/assets/plugins/select2/select2.full.min.js')}}"></script>
+        @vite('resources/assets/js/select2.js')
+
+
+        @vite('resources/assets/js/form-elements.js')
 
         <!-- INDEX JS -->
         @vite('resources/assets/js/index1.js')

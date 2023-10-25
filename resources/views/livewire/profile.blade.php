@@ -272,7 +272,7 @@
 																			<select class="form-select select2" id="validationCustom04" required>
                                                                                 <option selected disabled value="">Choose...</option>
                                                                                 <option>Laki-laki</option>
-                                                                                <option>Wanita</option>
+                                                                                <option>Perempuan</option>
 
                                                                             </select>
 																		</div>

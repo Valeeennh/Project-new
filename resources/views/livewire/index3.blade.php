@@ -280,7 +280,25 @@
 																	</div>
 																</div>
 
+                                                                <div class="form-group ">
+																	<div class="row row-sm">
+																		<div class="col-md-3">
+																			<label class="form-label fw-semibold text-muted-dark">Type</label>
+																		</div>
+																		<div class="col-md-9">
+																			<select class="form-select select2" id="validationCustom04" required>
+                                                                                <option selected disabled value="">Choose...</option>
+                                                                                <option>Company</option>
+                                                                                <option>Head Office</option>
+                                                                                <option>Regional office </option>
+                                                                                <option>Department </option>
+                                                                                <option>Unit </option>
+                                                                                <option>Sub unit </option>
 
+                                                                            </select>
+																		</div>
+																	</div>
+																</div>
 
 
 																<div class="form-group ">
