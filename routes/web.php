@@ -141,7 +141,6 @@ Route::get('datatable', Datatable::class);
 Route::get('profile', Profile::class);
 Route::get('login', Login::class);
 Route::get('forgot-password', ForgotPassword::class);
-
 // ROUTE USE
 
 

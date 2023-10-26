@@ -15,25 +15,13 @@
                                 </ol><!-- End breadcrumb -->
                                 <div class="ms-auto">
                                     <div>
-                                        <a href="javascript:void(0);" class="btn bg-secondary-transparent text-secondary btn-sm"
-                                            data-bs-toggle="tooltip" title="" data-bs-placement="bottom"
-                                            data-bs-original-title="Rating">
-                                            <span>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                        </a>
-                                        <a href="{{url('lockscreen')}}" class="btn bg-primary-transparent text-primary mx-2 btn-sm"
-                                            data-bs-toggle="tooltip" title="" data-bs-placement="bottom"
-                                            data-bs-original-title="lock">
-                                            <span>
-                                                <i class="fa fa-lock"></i>
-                                            </span>
-                                        </a>
+
                                         <a href="javascript:void(0);" class="btn bg-warning-transparent text-warning btn-sm" data-bs-toggle="tooltip"
                                             title="" data-bs-placement="bottom" data-bs-original-title="Add New">
                                             <span>
                                                 <i class="fa fa-plus"></i>
                                             </span>
+                                            <span>Add new</span>
                                         </a>
                                     </div>
                                 </div>
@@ -47,135 +35,230 @@
                             <div class="row">
                                 <div class="col-12 col-sm-12">
                                     <div class="card">
-                                        <div class="m-4">
+                                        <div class="card-header border-bottom ">
+                                            <h3 class="card-title mb-0">Absensi</h3>
+                                            <div class="ms-auto">
+                                                <button type="button" class="btn btn-success "><i
+                                                    class="fe fe-check me-2"></i>
+                                                    <span>Check in</span>
+                                                </button>
 
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="table-responsive">
+                                                <table id="data-table" class="table border p-0 text-nowrap mb-0">
+                                                    <thead class="bg-light text-dark">
+                                                        <tr>
+                                                            <th
+                                                                class="fw-semibold fs-14 border-bottom-0 w-5">
+                                                            No</th>
+                                                            <th
+                                                                class="fw-semibold fs-14 border-bottom-0">
+                                                                Nama</th>
+                                                            <th
+                                                                class="fw-semibold fs-14 border-bottom-0">
+                                                                Tanggal</th>
+                                                            <th
+                                                                class="fw-semibold fs-14 border-bottom-0">
+                                                                Check in</th>
+                                                            <th
+                                                                class="fw-semibold fs-14 border-bottom-0">
+                                                                Check out</th>
+                                                            <th
+                                                                class="fw-semibold fs-14 border-bottom-0">
+                                                                Status</th>
 
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <div class="card">
-                                                        <div class="card-header">
-                                                            <h3 class="card-title"> Absensi harian perusahaan PT ..</h3>
-                                                        </div>
-                                                        <div class="card-body">
-                                                            <div class="row">
-                                                                <div class="col-xl-6">
-                                                                    <div class="form-group">
-                                                                        <div class="card-title">
-                                                                            Nama Pegawai
-                                                                        </div>
-                                                                        <input type="text" class="form-control" name="example-text-input"
-                                                                            placeholder="UDIN " disabled>
-                                                                    </div>
-
-
-
-                                                                        {{-- FORM --}}
-                                                                        <form class="was-validated">
-
-                                                                                        <div class="card-title">
-                                                                                            Time in
-                                                                                        </div>
-
-                                                                                    <div class="card-body">
-                                                                                        <div class="form-group">
-                                                                                            <div class="input-group">
-                                                                                                <div class="input-group-text">
-                                                                                                    <i class="typcn typcn-stopwatch tx-24 lh--9 op-6"></i>
-                                                                                                </div>
-                                                                                                <input type="text" class="form-control" id="limittime"
-                                                                                                    placeholder="choose time min 16:00 to max 22:30">
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-
-                                                                                        <div class="card-title">
-                                                                                            Time out
-                                                                                        </div>
-
-                                                                                    <div class="card-body">
-                                                                                        <div class="form-group">
-                                                                                            <div class="input-group">
-                                                                                                <div class="input-group-text">
-                                                                                                    <i class="typcn typcn-stopwatch tx-24 lh--9 op-6"></i>
-                                                                                                </div>
-                                                                                                <input type="text" class="form-control" id="limittime"
-                                                                                                    placeholder="choose time min 16:00 to max 22:30">
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-
-                                                                                    <label for="">Latitude</label>
-                                                                            <div class="form-check">
-                                                                                <input type="text" class="form-control" id="validationFormCheck2"
-                                                                                     required disabled>
-                                                                                </label>
-                                                                            </div>
-
-                                                                            <label for="">Longtitude</label>
-                                                                            <div class="form-check">
-                                                                                <input type="text" class="form-control" id="validationFormCheck2"
-                                                                                     required disabled>
-                                                                                </label>
-                                                                            </div>
-
-
-                                                                            <label for="">Absensi dapat dilakukan pada jam 08:00 - 08:30</label>
-                                                                            <div class="form-check">
-                                                                                <input type="radio" class="form-check-input" id="validationFormCheck2"
-                                                                                    name="radio-stacked" value="Hadir" required>
-                                                                                <label class="form-check-label" for="validationFormCheck2">Hadir
-                                                                                </label>
-                                                                            </div>
-                                                                            <div class="form-check">
-                                                                                <input type="radio" class="form-check-input" id="validationFormCheck2"
-                                                                                    name="radio-stacked" value="Sakit" required>
-                                                                                <label class="form-check-label" for="validationFormCheck2">Sakit
-                                                                                    </label>
-                                                                            </div>
-                                                                            <div class="form-check">
-                                                                                <input type="radio" class="form-check-input" id="validationFormCheck2"
-                                                                                    name="radio-stacked" value="Izin" required>
-                                                                                <label class="form-check-label" for="validationFormCheck2">Izin
-                                                                                    </label>
-                                                                            </div>
-
-
-                                                                            {{-- <div class="mb-3">
-                                                                                <select class="form-select" required aria-label="select example">
-                                                                                    <option value="">Open this select menu</option>
-                                                                                    <option value="1">One</option>
-                                                                                    <option value="2">Two</option>
-                                                                                    <option value="3">Three</option>
-                                                                                </select>
-                                                                                <div class="invalid-feedback">Example invalid select feedback</div>
-                                                                            </div> --}}
-
-
-
-                                                                            <div class="mt-3">
-                                                                                <button class="btn btn-primary" type="submit" >Submit
-                                                                                    form</button>
-                                                                            </div>
-                                                                        </form>
-
-
-                                                                            </div>
-                                                                        </div>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="border-bottom">
+                                                            <td>
+                                                                <div class="d-flex justify-content-center align-items-center">
+                                                                    <h6 class="mb-0 fw-semibold text-dark">#420153</h6>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="d-flex contact-image">
+                                                                    <div class="d-flex mt-1 flex-column ms-2">
+                                                                        <h6 class="mb-0 fs-14 fw-semibold text-dark">Jake poole</h6>
+                                                                        <span
+                                                                            class="fs-12 text-muted">jacke123@gmail.com</span>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                            </td>
+                                                            <td class="fs-13 fw-semibold text-dark"><i class="fe fe-calendar me-2"></i>20-11-2020 </td>
+                                                            <td class="fs-13 fw-semibold text-dark">17:00</td>
+                                                            <td class="fs-13 fw-semibold text-dark">22:00</td>
+                                                            <td class="fs-15 fw-semibold">
+                                                                <div class="d-flex justify-content-between align-items-center">
+                                                                    <span
+                                                                        class="badge text-white ">Hadir</span>
+                                                                    <div class="dropdown">
+                                                                        <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                                            <span class="fs-14 text-dark"><i class="fe fe-more-vertical fw-semibold"></i></span>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-menu-end" role="menu">
+
+                                                                            <li><a href="javascript:void(0);">Remove</a></li>
+                                                                            <li><a href="javascript:void(0);">Edit</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr class="border-bottom">
+                                                            <td>
+                                                                <div class="d-flex justify-content-center align-items-center">
+                                                                    <h6 class="mb-0 fw-semibold text-dark">#230153</h6>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="d-flex contact-image">
+
+                                                                    <div class="d-flex mt-1 flex-column ms-2">
+                                                                        <h6 class="mb-0 fs-14 fw-semibold text-dark">Kylie north</h6>
+                                                                        <span
+                                                                            class="fs-12 text-muted">kylie@gmail.com</span>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="fs-13 fw-semibold text-dark"><i class="fe fe-calendar me-2"></i>19-11-2020 </td>
+                                                            <td class="fs-13 fw-semibold text-dark">17:00</td>
+                                                            <td class="fs-13 fw-semibold text-dark">22:00</td>
+                                                            <td class="fs-15 fw-semibold">
+                                                                <div class="d-flex justify-content-between align-items-center">
+                                                                    <span
+                                                                        class="badge text-white ">Hadir</span>
+
+                                                                    <div class="dropdown">
+                                                                        <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                                            <span class="fs-14 text-dark"><i class="fe fe-more-vertical fw-semibold"></i></span>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-menu-end" role="menu">
+
+                                                                            <li><a href="javascript:void(0);">Remove</a></li>
+                                                                            <li><a href="javascript:void(0);">Edit</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="border-bottom">
+                                                            <td>
+                                                                <div class="d-flex justify-content-center align-items-center">
+                                                                    <h6 class="mb-0 fw-semibold text-dark">#124153</h6>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="d-flex contact-image">
+
+                                                                    <div class="d-flex mt-1 flex-column ms-2">
+                                                                        <h6 class="mb-0 fs-14 fw-semibold text-dark">Jan Hodges</h6>
+                                                                        <span class="fs-12 text-muted">jan@gmail.com</span>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="fs-13 fw-semibold text-dark"><i class="fe fe-calendar me-2"></i>19-11-2020 </td>
+                                                            <td class="fs-13 fw-semibold text-dark">17:00</td>
+                                                            <td class="fs-13 fw-semibold text-dark">22:00</td>
+                                                            <td class="fs-15 fw-semibold">
+                                                                <div class="d-flex justify-content-between align-items-center">
+                                                                    <span
+                                                                        class="badge text-white b">Hadir</span>
+
+                                                                    <div class="dropdown">
+                                                                        <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                                            <span class="fs-14 text-dark"><i class="fe fe-more-vertical fw-semibold"></i></span>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-menu-end" role="menu">
+
+                                                                            <li><a href="javascript:void(0);">Remove</a></li>
+                                                                            <li><a href="javascript:void(0);">Edit</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="border-bottom">
+                                                            <td>
+                                                                <div class="d-flex justify-content-center align-items-center">
+                                                                    <h6 class="mb-0 fw-semibold text-dark">#024153</h6>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="d-flex contact-image">
+
+                                                                    <div class="d-flex mt-1 flex-column ms-2">
+                                                                        <h6 class="mb-0 fs-14 fw-semibold text-dark">Trevor Thomson
+                                                                        </h6>
+                                                                        <span
+                                                                            class="fs-12 text-muted">trevor@gmail.com</span>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="fs-13 fw-semibold text-dark"><i class="fe fe-calendar me-2"></i>19-11-2020 </td>
+                                                            <td class="fs-13 fw-semibold text-dark">17:00</td>
+                                                            <td class="fs-13 fw-semibold text-dark">22:00</td>
+                                                            <td class="fs-15 fw-semibold">
+                                                                <div class="d-flex justify-content-between align-items-center">
+                                                                    <span
+                                                                        class="badge text-white ">Hadir</span>
+
+                                                                    <div class="dropdown">
+                                                                        <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                                            <span class="fs-14 text-dark"><i class="fe fe-more-vertical fw-semibold"></i></span>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-menu-end" role="menu">
+
+                                                                            <li><a href="javascript:void(0);">Remove</a></li>
+                                                                            <li><a href="javascript:void(0);">Edit</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="border-bootom">
+                                                            <td>
+                                                                <div class="d-flex justify-content-center align-items-center">
+                                                                    <h6 class="mb-0 fw-semibold text-dark">#420153</h6>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="d-flex contact-image">
+                                                                    <div class="d-flex mt-1 flex-column ms-2">
+                                                                        <h6 class="mb-0 fs-14 fw-semibold text-dark">Emily Lewis</h6>
+                                                                        <span
+                                                                            class="fs-12 text-muted">emily@gmail.com</span>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="fs-13 fw-semibold text-dark"><i class="fe fe-calendar me-2"></i>19-11-2020 </td>
+                                                            <td class="fs-13 fw-semibold text-dark">17:00</td>
+                                                            <td class="fs-13 fw-semibold text-dark">22:00</td>
+                                                            <td class="fs-15 fw-semibold">
+                                                                <div class="d-flex justify-content-between align-items-center">
+                                                                    <span
+                                                                        class="badge text-white ">Hadir</span>
+
+                                                                    <div class="dropdown">
+                                                                        <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                                            <span class="fs-14 text-dark"><i class="fe fe-more-vertical fw-semibold"></i></span>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-menu-end" role="menu">
+
+                                                                            <li><a href="javascript:void(0);">Remove</a></li>
+                                                                            <li><a href="javascript:void(0);">Edit</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
                                             </div>
-
-
                                         </div>
-
-                                            </div>
-                                        </div>
-
-
                                     </div>
                                 </div>
                                 <!-- COL END -->

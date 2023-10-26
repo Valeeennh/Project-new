@@ -48,7 +48,7 @@
 														<ul class="sidemenu-list">
 															<li class="side-menu-label1"><a href="javascript:void(0)">Dashboards</a></li>
 															<li><a class="slide-item" href="{{url('index')}}">Absensi</a></li>
-															<li><a class="slide-item" href="{{url('datatable')}}">Data Pegawai</a></li>
+															<li><a class="slide-item" href="{{url('index2')}}">Data User</a></li>
 															<li><a class="slide-item" href="{{url('index4')}}">Data Company</a></li>
 															<li><a class="slide-item" href="{{url('timer')}}">Timestamp</a></li>
 														</ul>
