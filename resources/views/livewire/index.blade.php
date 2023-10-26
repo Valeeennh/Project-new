@@ -93,7 +93,7 @@
                                                             <td class="fs-15 fw-semibold">
                                                                 <div class="d-flex justify-content-between align-items-center">
                                                                     <span
-                                                                        class="badge text-white ">Hadir</span>
+                                                                        class="fs-13 fw-semibold text-dark ">Hadir</span>
                                                                     <div class="dropdown">
                                                                         <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                                                             <span class="fs-14 text-dark"><i class="fe fe-more-vertical fw-semibold"></i></span>
@@ -130,7 +130,7 @@
                                                             <td class="fs-15 fw-semibold">
                                                                 <div class="d-flex justify-content-between align-items-center">
                                                                     <span
-                                                                        class="badge text-white ">Hadir</span>
+                                                                        class="fs-13 fw-semibold text-dark ">Hadir</span>
 
                                                                     <div class="dropdown">
                                                                         <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -166,7 +166,7 @@
                                                             <td class="fs-15 fw-semibold">
                                                                 <div class="d-flex justify-content-between align-items-center">
                                                                     <span
-                                                                        class="badge text-white b">Hadir</span>
+                                                                    class="fs-13 fw-semibold text-dark ">Hadir</span>
 
                                                                     <div class="dropdown">
                                                                         <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -204,7 +204,7 @@
                                                             <td class="fs-15 fw-semibold">
                                                                 <div class="d-flex justify-content-between align-items-center">
                                                                     <span
-                                                                        class="badge text-white ">Hadir</span>
+                                                                        class="fs-13 fw-semibold text-dark ">Hadir</span>
 
                                                                     <div class="dropdown">
                                                                         <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -240,7 +240,7 @@
                                                             <td class="fs-15 fw-semibold">
                                                                 <div class="d-flex justify-content-between align-items-center">
                                                                     <span
-                                                                        class="badge text-white ">Hadir</span>
+                                                                        class="fs-13 fw-semibold text-dark ">Hadir</span>
 
                                                                     <div class="dropdown">
                                                                         <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
