@@ -116,6 +116,9 @@ use App\Http\Livewire\Typography;
 use App\Http\Livewire\UsersList;
 use App\Http\Livewire\Widgets;
 use App\Http\Livewire\Wishlist;
+use App\Http\Livewire\Edituser;
+use App\Http\Livewire\Editemploye;
+use App\Http\Livewire\User;
 
 
 
@@ -141,6 +144,11 @@ Route::get('datatable', Datatable::class);
 Route::get('profile', Profile::class);
 Route::get('login', Login::class);
 Route::get('forgot-password', ForgotPassword::class);
+Route::get('editemploye',Editemploye::class);
+Route::get('edituser',Edituser::class);
+Route::get('editemploye',Editemploye::class);
+Route::get('user',User::class);
+
 // ROUTE USE
 
 

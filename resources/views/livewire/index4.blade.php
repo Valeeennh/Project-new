@@ -10,9 +10,9 @@
                             <div class="page-header d-sm-flex d-block">
                                 <ol class="breadcrumb mb-sm-0 mb-3">
                                     <!-- breadcrumb -->
-                                    <li class="breadcrumb-item"><a href="javascript:void(0);">Components</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Tables</li>
-                                    <li class="breadcrumb-item active" aria-current="page">Data Table</li>
+
+                                    <li class="breadcrumb-item active" aria-current="page">Data</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Department</li>
                                 </ol><!-- End breadcrumb -->
                                 <div class="ms-auto">
                                     <div>

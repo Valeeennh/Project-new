@@ -10,20 +10,10 @@
                             <div class="page-header d-sm-flex d-block">
                                 <ol class="breadcrumb mb-sm-0 mb-3">
                                     <!-- breadcrumb -->
-                                    <li class="breadcrumb-item"><a href="{{url('index2')}}">Data</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Employee</li>
+                                    <li class="breadcrumb-item"><a href="{{url('index')}}">Data</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">user</li>
                                 </ol><!-- End breadcrumb -->
-                                <div class="ms-auto">
-                                    <div>
 
-                                        <a href="javascript:void(0);" class="btn bg-warning-transparent text-warning btn-sm" data-bs-toggle="tooltip"
-                                            title="" data-bs-placement="bottom" data-bs-original-title="Add New">
-                                            <span>
-                                                <i class="fa fa-plus"></i>
-                                            </span> <span>Add new </span>
-                                        </a>
-                                    </div>
-                                </div>
                             </div>
                             <!-- END PAGE HEADER -->
 
@@ -35,7 +25,7 @@
                                 <div class="col-12 col-sm-12">
                                     <div class="card">
                                         <div class="card-header border-bottom ">
-                                            <h3 class="card-title mb-0">Data Employee</h3>
+                                            <h3 class="card-title mb-0">Data user</h3>
 
                                         </div>
                                         <div class="card-body">
@@ -48,51 +38,43 @@
                                                                 No</th>
                                                             <th
                                                                 class="fw-semibold fs-14 border-bottom-0">
-                                                                Nama</th>
+                                                                Username</th>
                                                             <th
                                                                 class="fw-semibold fs-14 border-bottom-0">
-                                                                Position</th>
+                                                                Email</th>
                                                             <th
                                                                 class="fw-semibold fs-14 border-bottom-0">
-                                                                Office</th>
+                                                                Employee.id </th>
                                                             <th
                                                                 class="fw-semibold fs-14 border-bottom-0">
-                                                                Department</th>
+                                                                Role</th>
                                                             <th
                                                                 class="fw-semibold fs-14 border-bottom-0">
-                                                                Start date</th>
-                                                             <th
-                                                                class="fw-semibold fs-14 border-bottom-0">
-                                                                End date</th>
+                                                                Password</th>
+
 
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr class="border-bottom">
                                                             <td>
-                                                                <div class="d-flex justify-content-center align-items-center">
+                                                                <div class="d-flex  align-items-center">
                                                                     <h6 class="mb-0 fw-semibold text-dark">#420153</h6>
                                                                 </div>
                                                             </td>
                                                             <td>
-                                                                <div class="d-flex contact-image">
-
-                                                                    <div class="d-flex mt-1 flex-column ms-2">
-                                                                        <h6 class="mb-0 fs-14 fw-semibold text-dark">Jake poole</h6>
-                                                                        <span
-                                                                            class="fs-12 text-muted">jacke123@gmail.com</span>
-                                                                    </div>
+                                                                <div class="d-flex  align-items-center">
+                                                                    <h6 class="mb-0 fw-semibold text-dark">Virginia Mak</h6>
                                                                 </div>
                                                             </td>
+                                                            <td class="fs-13 fw-semibold text-dark">virginia@gmail.com</td>
+                                                            <td class="fs-13 fw-semibold text-dark">ud</td>
+                                                            <td class="fs-13 fw-semibold text-dark">Employee </td>
 
-                                                            <td class="fs-13 fw-semibold text-dark">Sofa</td>
-                                                            <td class="fs-13 fw-semibold text-dark">$426.56</td>
-                                                            <td class="fs-13 fw-semibold text-dark">20 </td>
-                                                            <td class="fs-13 fw-semibold text-dark"><i class="fe fe-calendar me-2"></i>20-11-2020 </td>
                                                             <td class="fs-15 fw-semibold">
                                                                 <div class="d-flex justify-content-between align-items-center">
                                                                    <span
-                                                                        class="fs-13 fw-semibold text-dark "><i class="fe fe-calendar me-2"></i>20-11-2020</span>
+                                                                        class="fs-13 fw-semibold text-dark ">adaadaaja</span>
                                                                     <div class="dropdown">
                                                                         <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                                                             <span class="fs-14 text-dark"><i class="fe fe-more-vertical fw-semibold"></i></span>
@@ -100,7 +82,7 @@
                                                                         <ul class="dropdown-menu dropdown-menu-end" role="menu">
 
                                                                             <li><a href="javascript:void(0);">Remove</a></li>
-                                                                            <li><a href="{{url('editemploye')}}">Edit</a></li>
+                                                                            <li><a href="{{url('edituser')}}">Edit</a></li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -109,30 +91,23 @@
 
                                                         <tr class="border-bottom">
                                                             <td>
-                                                                <div class="d-flex justify-content-center align-items-center">
-                                                                    <h6 class="mb-0 fw-semibold text-dark">#230153</h6>
+                                                                <div class="d-flex  align-items-center">
+                                                                    <h6 class="mb-0 fw-semibold text-dark">#420153</h6>
                                                                 </div>
                                                             </td>
                                                             <td>
-                                                                <div class="d-flex contact-image">
-
-                                                                    <div class="d-flex mt-1 flex-column ms-2">
-                                                                        <h6 class="mb-0 fs-14 fw-semibold text-dark">Kylie north</h6>
-                                                                        <span
-                                                                            class="fs-12 text-muted">kylie@gmail.com</span>
-                                                                    </div>
+                                                                <div class="d-flex  align-items-center">
+                                                                    <h6 class="mb-0 fw-semibold text-dark">Virginia Mak</h6>
                                                                 </div>
                                                             </td>
+                                                            <td class="fs-13 fw-semibold text-dark">virginia@gmail.com</td>
+                                                            <td class="fs-13 fw-semibold text-dark">ud</td>
+                                                            <td class="fs-13 fw-semibold text-dark">Employee </td>
 
-                                                            <td class="fs-13 fw-semibold text-dark">Coat</td>
-                                                            <td class="fs-13 fw-semibold text-dark">$652.00</td>
-                                                            <td class="fs-13 fw-semibold text-dark">20 </td>
-                                                            <td class="fs-13 fw-semibold text-dark"><i class="fe fe-calendar me-2"></i>20-11-2020 </td>
                                                             <td class="fs-15 fw-semibold">
                                                                 <div class="d-flex justify-content-between align-items-center">
                                                                     <span
-                                                                        class="fs-13 fw-semibold text-dark "><i class="fe fe-calendar me-2"></i>20-11-2020</span>
-
+                                                                        class="fs-13 fw-semibold text-dark ">adaadaaja</span>
                                                                     <div class="dropdown">
                                                                         <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                                                             <span class="fs-14 text-dark"><i class="fe fe-more-vertical fw-semibold"></i></span>
@@ -140,7 +115,7 @@
                                                                         <ul class="dropdown-menu dropdown-menu-end" role="menu">
 
                                                                             <li><a href="javascript:void(0);">Remove</a></li>
-                                                                             <li><a href="{{url('editemploye')}}">Edit</a></li>
+                                                                            <li><a href="{{url('edituser')}}">Edit</a></li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -148,108 +123,23 @@
                                                         </tr>
                                                         <tr class="border-bottom">
                                                             <td>
-                                                                <div class="d-flex justify-content-center align-items-center">
-                                                                    <h6 class="mb-0 fw-semibold text-dark">#124153</h6>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="d-flex contact-image">
-
-                                                                    <div class="d-flex mt-1 flex-column ms-2">
-                                                                        <h6 class="mb-0 fs-14 fw-semibold text-dark">Jan Hodges</h6>
-                                                                        <span class="fs-12 text-muted">jan@gmail.com</span>
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-
-                                                            <td class="fs-13 fw-semibold text-dark">Shoes</td>
-                                                            <td class="fs-13 fw-semibold text-dark">$200.56</td>
-                                                            <td class="fs-13 fw-semibold text-dark">20 </td>
-                                                            <td class="fs-13 fw-semibold text-dark"><i class="fe fe-calendar me-2"></i>20-11-2020 </td>
-                                                            <td class="fs-15 fw-semibold">
-                                                                <div class="d-flex justify-content-between align-items-center">
-                                                                   <span
-                                                                        class="fs-13 fw-semibold text-dark "><i class="fe fe-calendar me-2"></i>20-11-2020</span>
-
-                                                                    <div class="dropdown">
-                                                                        <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                                                            <span class="fs-14 text-dark"><i class="fe fe-more-vertical fw-semibold"></i></span>
-                                                                        </a>
-                                                                        <ul class="dropdown-menu dropdown-menu-end" role="menu">
-
-                                                                            <li><a href="javascript:void(0);">Remove</a></li>
-                                                                             <li><a href="{{url('editemploye')}}">Edit</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr class="border-bottom">
-                                                            <td>
-                                                                <div class="d-flex justify-content-center align-items-center">
-                                                                    <h6 class="mb-0 fw-semibold text-dark">#024153</h6>
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <div class="d-flex contact-image">
-
-                                                                    <div class="d-flex mt-1 flex-column ms-2">
-                                                                        <h6 class="mb-0 fs-14 fw-semibold text-dark">Trevor Thomson
-                                                                        </h6>
-                                                                        <span
-                                                                            class="fs-12 text-muted">trevor@gmail.com</span>
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-
-                                                            <td class="fs-13 fw-semibold text-dark">T-shirts</td>
-                                                            <td class="fs-13 fw-semibold text-dark">$364.56</td>
-                                                            <td class="fs-13 fw-semibold text-dark"> 25 </td>
-                                                            <td class="fs-13 fw-semibold text-dark"><i class="fe fe-calendar me-2"></i>20-11-2020 </td>
-                                                            <td class="fs-15 fw-semibold">
-                                                                <div class="d-flex justify-content-between align-items-center">
-                                                                   <span
-                                                                        class="fs-13 fw-semibold text-dark "><i class="fe fe-calendar me-2"></i>20-11-2020</span>
-
-                                                                    <div class="dropdown">
-                                                                        <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                                                            <span class="fs-14 text-dark"><i class="fe fe-more-vertical fw-semibold"></i></span>
-                                                                        </a>
-                                                                        <ul class="dropdown-menu dropdown-menu-end" role="menu">
-
-                                                                            <li><a href="javascript:void(0);">Remove</a></li>
-                                                                             <li><a href="{{url('editemploye')}}">Edit</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr class="border-bootom">
-                                                            <td>
-                                                                <div class="d-flex justify-content-center align-items-center">
+                                                                <div class="d-flex  align-items-center">
                                                                     <h6 class="mb-0 fw-semibold text-dark">#420153</h6>
                                                                 </div>
                                                             </td>
                                                             <td>
-                                                                <div class="d-flex contact-image">
-
-                                                                    <div class="d-flex mt-1 flex-column ms-2">
-                                                                        <h6 class="mb-0 fs-14 fw-semibold text-dark">Emily Lewis</h6>
-                                                                        <span
-                                                                            class="fs-12 text-muted">emily@gmail.com</span>
-                                                                    </div>
+                                                                <div class="d-flex  align-items-center">
+                                                                    <h6 class="mb-0 fw-semibold text-dark">Virginia Mak</h6>
                                                                 </div>
                                                             </td>
+                                                            <td class="fs-13 fw-semibold text-dark">virginia@gmail.com</td>
+                                                            <td class="fs-13 fw-semibold text-dark">ud</td>
+                                                            <td class="fs-13 fw-semibold text-dark">Employee </td>
 
-                                                            <td class="fs-13 fw-semibold text-dark ">Jeans</td>
-                                                            <td class="fs-13 fw-semibold text-dark ">$56.035</td>
-                                                            <td class="fs-13 fw-semibold text-dark"> 25 </td>
-                                                            <td class="fs-13 fw-semibold text-dark"><i class="fe fe-calendar me-2"></i>20-11-2020 </td>
                                                             <td class="fs-15 fw-semibold">
                                                                 <div class="d-flex justify-content-between align-items-center">
-                                                                   <span
-                                                                        class="fs-13 fw-semibold text-dark "><i class="fe fe-calendar me-2"></i>20-11-2020</span>
-
+                                                                    <span
+                                                                        class="fs-13 fw-semibold text-dark ">adaadaaja</span>
                                                                     <div class="dropdown">
                                                                         <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                                                             <span class="fs-14 text-dark"><i class="fe fe-more-vertical fw-semibold"></i></span>
@@ -257,12 +147,78 @@
                                                                         <ul class="dropdown-menu dropdown-menu-end" role="menu">
 
                                                                             <li><a href="javascript:void(0);">Remove</a></li>
-                                                                             <li><a href="{{url('editemploye')}}">Edit</a></li>
+                                                                            <li><a href="{{url('edituser')}}">Edit</a></li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
                                                             </td>
                                                         </tr>
+                                                        <tr class="border-bottom">
+                                                            <td>
+                                                                <div class="d-flex  align-items-center">
+                                                                    <h6 class="mb-0 fw-semibold text-dark">#420153</h6>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="d-flex  align-items-center">
+                                                                    <h6 class="mb-0 fw-semibold text-dark">Virginia Mak</h6>
+                                                                </div>
+                                                            </td>
+                                                            <td class="fs-13 fw-semibold text-dark">virginia@gmail.com</td>
+                                                            <td class="fs-13 fw-semibold text-dark">ud</td>
+                                                            <td class="fs-13 fw-semibold text-dark">Employee </td>
+
+                                                            <td class="fs-15 fw-semibold">
+                                                                <div class="d-flex justify-content-between align-items-center">
+                                                                    <span
+                                                                        class="fs-13 fw-semibold text-dark ">adaadaaja</span>
+                                                                    <div class="dropdown">
+                                                                        <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                                            <span class="fs-14 text-dark"><i class="fe fe-more-vertical fw-semibold"></i></span>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-menu-end" role="menu">
+
+                                                                            <li><a href="javascript:void(0);">Remove</a></li>
+                                                                            <li><a href="{{url('edituser')}}">Edit</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="border-bottom">
+                                                            <td>
+                                                                <div class="d-flex  align-items-center">
+                                                                    <h6 class="mb-0 fw-semibold text-dark">#420153</h6>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="d-flex  align-items-center">
+                                                                    <h6 class="mb-0 fw-semibold text-dark">Virginia Mak</h6>
+                                                                </div>
+                                                            </td>
+                                                            <td class="fs-13 fw-semibold text-dark">virginia@gmail.com</td>
+                                                            <td class="fs-13 fw-semibold text-dark">ud</td>
+                                                            <td class="fs-13 fw-semibold text-dark">Employee </td>
+
+                                                            <td class="fs-15 fw-semibold">
+                                                                <div class="d-flex justify-content-between align-items-center">
+                                                                    <span
+                                                                        class="fs-13 fw-semibold text-dark ">adaadaaja</span>
+                                                                    <div class="dropdown">
+                                                                        <a href="" class="fw-semibold" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                                            <span class="fs-14 text-dark"><i class="fe fe-more-vertical fw-semibold"></i></span>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-menu-end" role="menu">
+
+                                                                            <li><a href="javascript:void(0);">Remove</a></li>
+                                                                            <li><a href="{{url('edituser')}}">Edit</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+
+
                                                     </tbody>
                                                 </table>
                                             </div>
