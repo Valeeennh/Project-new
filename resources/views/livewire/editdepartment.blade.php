@@ -11,7 +11,7 @@
 								<ol class="breadcrumb mb-sm-0 mb-3">
 									<!-- breadcrumb -->
 									<li class="breadcrumb-item"><a href="javascript:void(0);">Edit</a></li>
-									<li class="breadcrumb-item active" aria-current="page">User</li>
+									<li class="breadcrumb-item active" aria-current="page">Department</li>
 								</ol><!-- End breadcrumb -->
 
 							</div>
@@ -19,6 +19,10 @@
 
 							<!-- ROW -->
 
+
+                            <div class="row">
+                                <div class="col-20 col-sm-20">
+                                    <div class="card">
 
 
                                     <div class="card-body">
@@ -30,26 +34,37 @@
                                         </div>
 
                                         <form class="form-horizontal">
-                                            <h6 class="text-uppercase fw-semibold mb-3">Edit User</h6>
+                                            <h6 class="text-uppercase fw-semibold mb-3">Edit Department</h6>
                                             <div class="form-group">
                                                 <div class="row row-sm">
                                                     <div class="col-md-3">
-                                                        <label class="form-label fw-semibold text-muted-dark">Username</label>
+                                                        <label class="form-label fw-semibold text-muted-dark">Nama department</label>
                                                     </div>
                                                     <div class="col-md-9">
                                                         <input type="text" class="form-control"
-                                                            placeholder="Username" >
+                                                            placeholder="Name" >
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-group ">
                                                 <div class="row row-sm">
                                                     <div class="col-md-3">
-                                                        <label class="form-label fw-semibold text-muted-dark">Email</label>
+                                                        <label class="form-label fw-semibold text-muted-dark">Detail</label>
                                                     </div>
                                                     <div class="col-md-9">
-                                                        <input type="email" class="form-control"
-                                                            placeholder="Email">
+                                                        <input type="text" class="form-control"
+                                                            placeholder="Detail">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group ">
+                                                <div class="row row-sm">
+                                                    <div class="col-md-3">
+                                                        <label class="form-label fw-semibold text-muted-dark">Addres</label>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <input type="text" class="form-control"
+                                                            placeholder="Jln telexia">
                                                     </div>
                                                 </div>
                                             </div>
@@ -57,7 +72,27 @@
                                             <div class="form-group ">
                                                 <div class="row row-sm">
                                                     <div class="col-md-3">
-                                                        <label class="form-label fw-semibold text-muted-dark">Employe id</label>
+                                                        <label class="form-label fw-semibold text-muted-dark">Type</label>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <select class="form-select select2" id="validationCustom04" required>
+                                                            <option selected disabled value="">Choose...</option>
+                                                            <option>Company</option>
+                                                            <option>Head office</option>
+                                                            <option>Regional office</option>
+                                                            <option>Department</option>
+                                                            <option>Unit</option>
+                                                            <option>Sub unit</option>
+
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group ">
+                                                <div class="row row-sm">
+                                                    <div class="col-md-3">
+                                                        <label class="form-label fw-semibold text-muted-dark">Parent Structure</label>
                                                     </div>
                                                     <div class="col-md-9">
                                                         <select class="form-select select2" id="validationCustom04" required>
@@ -65,7 +100,6 @@
                                                             <option>1</option>
                                                             <option>2</option>
                                                             <option>3</option>
-                                                            <option>4</option>
 
                                                         </select>
                                                     </div>
@@ -75,36 +109,27 @@
                                             <div class="form-group ">
                                                 <div class="row row-sm">
                                                     <div class="col-md-3">
-                                                        <label class="form-label fw-semibold text-muted-dark">Role</label>
+                                                        <label class="form-label fw-semibold text-muted-dark">Heads</label>
                                                     </div>
                                                     <div class="col-md-9">
                                                         <select class="form-select select2" id="validationCustom04" required>
                                                             <option selected disabled value="">Choose...</option>
-                                                            <option>HRD</option>
-                                                            <option>Employee</option>
-                                                            <option>Admin</option>
+                                                            <option>employe1</option>
+                                                            <option>employe2</option>
+                                                            <option>employe3</option>
 
                                                         </select>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <div class="form-group ">
-                                                <div class="row row-sm">
-                                                    <div class="col-md-3">
-                                                        <label class="form-label fw-semibold text-muted-dark">Password</label>
-                                                    </div>
-                                                    <div class="col-md-9">
-                                                        <input type="text" class="form-control"
-                                                            placeholder="Password" >
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
                                         </form>
 
                                     </div>
+
+                                </div>
+                            </div>
+                        </div>
 
 
 							<!-- END ROW -->

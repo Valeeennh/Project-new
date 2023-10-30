@@ -16,6 +16,7 @@
                                 <div class="ms-auto">
                                     <div>
 
+
                                         <a href="javascript:void(0);" class="btn bg-warning-transparent text-warning btn-sm" data-bs-toggle="tooltip"
                                             title="" data-bs-placement="bottom" data-bs-original-title="Add New">
                                             <span>
@@ -23,6 +24,7 @@
                                             </span>
                                             <span>Add new</span>
                                         </a>
+
                                     </div>
                                 </div>
                             </div>
@@ -38,10 +40,30 @@
                                         <div class="card-header border-bottom ">
                                             <h3 class="card-title mb-0">Absensi</h3>
                                             <div class="ms-auto">
-                                                <button type="button" class="btn btn-success "><i
+
+
+
+
+
+
+
+
+                                                {{-- @if () --}}
+                                                    <button id="checkInBtn" type="button" class="btn btn-success "><i
                                                     class="fe fe-check me-2"></i>
                                                     <span>Check in</span>
                                                 </button>
+                                                {{-- @else --}}
+                                                    <button id="checkOutBtn" type="button" class="btn btn-primary "><i
+                                                    class="fe fe-check me-2"></i>
+                                                    <span>Check out</span>
+                                                   </button>
+                                                {{-- @endif --}}
+
+
+
+
+
 
                                             </div>
                                         </div>
@@ -269,6 +291,23 @@
 @endsection
 
 @section('scripts')
+
+{{-- <script>
+    const checkInBtn = document.getElementById('checkInBtn');
+    const checkOutBtn = document.getElementById('checkOutBtn');
+
+    checkInBtn.addEventListener('click', function() {
+      checkInBtn.style.display = 'none';
+      checkOutBtn.style.display = 'inline-block';
+      checkOutBtn.classList.add('checked');
+    });
+
+    checkOutBtn.addEventListener('click', function() {
+      checkOutBtn.style.display = 'none';
+      checkInBtn.style.display = 'inline-block';
+      checkOutBtn.classList.remove('checked');
+    });
+  </script> --}}
 
         <!-- SELECT2 JS -->
         <script src="{{asset('build/assets/plugins/select2/select2.full.min.js')}}"></script>

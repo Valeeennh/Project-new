@@ -13,7 +13,12 @@
                                     <li class="breadcrumb-item"><a href="{{url('index')}}">Data</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">user</li>
                                 </ol><!-- End breadcrumb -->
-
+                                <a href="{{ url('adduser') }}" class="btn bg-warning-transparent text-warning btn-sm" data-bs-toggle="tooltip"
+                                title="" data-bs-placement="bottom" data-bs-original-title="Add New">
+                                <span>
+                                    <i class="fa fa-plus"></i>
+                                </span> <span>Add new </span>
+                            </a>
                             </div>
                             <!-- END PAGE HEADER -->
 

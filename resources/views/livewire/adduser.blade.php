@@ -10,7 +10,7 @@
                             <div class="page-header d-sm-flex d-block">
 								<ol class="breadcrumb mb-sm-0 mb-3">
 									<!-- breadcrumb -->
-									<li class="breadcrumb-item"><a href="javascript:void(0);">Edit</a></li>
+									<li class="breadcrumb-item"><a href="javascript:void(0);">Add</a></li>
 									<li class="breadcrumb-item active" aria-current="page">User</li>
 								</ol><!-- End breadcrumb -->
 
@@ -24,13 +24,13 @@
                                     <div class="card-body">
                                         <div class="d-flex">
                                             <div class="ms-auto">
-                                                <a href="javascript:void(0);" class="btn btn-sm btn-success mx-1">Update</a>
-                                                <a href="javascript:void(0);" class="btn btn-sm btn-danger">Discard</a>
+                                                <a href="javascript:void(0);" class="btn btn-sm btn-success mx-1">Tambah</a>
+
                                             </div>
                                         </div>
 
                                         <form class="form-horizontal">
-                                            <h6 class="text-uppercase fw-semibold mb-3">Edit User</h6>
+                                            <h6 class="text-uppercase fw-semibold mb-3">Tambah User</h6>
                                             <div class="form-group">
                                                 <div class="row row-sm">
                                                     <div class="col-md-3">

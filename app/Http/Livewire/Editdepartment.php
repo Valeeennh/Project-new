@@ -4,10 +4,10 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 
-class Index3 extends Component
+class Editdepartment extends Component
 {
     public function render()
     {
-        return view('livewire.index3');
+        return view('livewire.editdepartment');
     }
 }

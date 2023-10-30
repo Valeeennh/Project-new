@@ -16,7 +16,7 @@
                                 <div class="ms-auto">
                                     <div>
 
-                                        <a href="javascript:void(0);" class="btn bg-warning-transparent text-warning btn-sm" data-bs-toggle="tooltip"
+                                        <a href="{{ url('addemploye') }}" class="btn bg-warning-transparent text-warning btn-sm" data-bs-toggle="tooltip"
                                             title="" data-bs-placement="bottom" data-bs-original-title="Add New">
                                             <span>
                                                 <i class="fa fa-plus"></i>
