@@ -89,13 +89,6 @@
 													<a class="dropdown-item text-dark fw-semibold border-top" href="{{url('profile')}}">
 														<i class="dropdown-icon fe fe-user"></i> Profile
 													</a>
-													<a class="dropdown-item text-dark fw-semibold" href="{{url('settings')}}">
-														<i class="dropdown-icon fe fe-settings"></i> Settings
-													</a>
-													<a class="dropdown-item text-dark fw-semibold" href="{{url('faq')}}">
-														<i class="dropdown-icon fe fe-alert-triangle"></i>
-														Support ?
-													</a>
 													<a class="dropdown-item text-dark fw-semibold" href="{{url('login')}}">
 														<i class="dropdown-icon fe fe-log-out"></i> Sign
 														out

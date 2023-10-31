@@ -2,6 +2,7 @@
 
 @section('styles')
 
+<meta name="csrf-token" content="{{ csrf_token() }}"/>
 @endsection
 
 @section('content')
@@ -168,44 +169,64 @@
                                             <div class="form-group ">
                                                 <div class="row row-sm">
                                                     <div class="col-md-3">
-                                                        <label class="form-label fw-semibold text-muted-dark">Subdistrict</label>
+                                                        <label class="form-label fw-semibold text-muted-dark">Provinsi</label>
                                                     </div>
                                                     <div class="col-md-9">
-                                                        <input type="text" class="form-control"
-                                                            placeholder="Designation" >
+                                                        <select class="form-select select2" id="provinsi" required>
+                                                            <option selected disabled value="">Pilih Provinsi</option>
+                                                            @foreach ($provinces as $provinsi )
+                                                            <option value="{{ $provinsi->id }}" >{{ $provinsi->name }}</option>
+                                                            @endforeach
+
+                                                        </select>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-group ">
                                                 <div class="row row-sm">
                                                     <div class="col-md-3">
-                                                        <label class="form-label fw-semibold text-muted-dark">City</label>
+                                                        <label class="form-label fw-semibold text-muted-dark">Kabupaten</label>
                                                     </div>
                                                     <div class="col-md-9">
-                                                        <input type="text" class="form-control"
-                                                            placeholder="City">
+                                                        <select class="form-select select2" id="kabupaten" required>
+                                                            <option selected disabled value="">Pilih Kabupaten</option>
+                                                        @foreach ($regencies as $kabupaten )
+                                                        <option >{{ $kabupaten->name }}</option>
+                                                        @endforeach
+
+                                                        </select>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-group ">
                                                 <div class="row row-sm">
                                                     <div class="col-md-3">
-                                                        <label class="form-label fw-semibold text-muted-dark">Province</label>
+                                                        <label class="form-label fw-semibold text-muted-dark">Kecamatan</label>
                                                     </div>
                                                     <div class="col-md-9">
-                                                        <input type="text" class="form-control"
-                                                            placeholder="Province" >
+                                                        <select class="form-select select2" id="kecamatan" required>
+                                                            <option selected disabled value="">Pilih Kecamatan</option>
+                                                            @foreach ($districts as $kecamatan )
+                                                            <option >{{ $kecamatan->name }}</option>
+                                                            @endforeach
+
+                                                        </select>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-group ">
                                                 <div class="row row-sm">
                                                     <div class="col-md-3">
-                                                        <label class="form-label fw-semibold text-muted-dark">Pos code</label>
+                                                        <label class="form-label fw-semibold text-muted-dark">Desa</label>
                                                     </div>
                                                     <div class="col-md-9">
-                                                        <input type="text" class="form-control"
-                                                            placeholder="Pos code" >
+                                                        <select class="form-select select2" id="desa" required>
+                                                            <option selected disabled value="">Pilih Desa</option>
+                                                            @foreach ($villages as $desa )
+                                                            <option >{{ $desa->name }}</option>
+                                                            @endforeach
+
+                                                        </select>
                                                     </div>
                                                 </div>
                                             </div>
@@ -288,6 +309,48 @@
 @endsection
 
 @section('scripts')
+
+        {{-- <script>
+
+            $(function(){
+                $.ajaxSetup({
+                    headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')}
+                });
+
+
+                $(function(){
+
+                $('#provinsi').on('change',function(){
+                  let id_provinsi = $('#provinsi').val();
+
+                    $.ajax({
+                        type : 'POST',
+                        url : "{{ route('getkabupaten') }}",
+                        data :{id_provinsi:id_provinsi},
+                        cache : false,
+
+                        success: function(msg){
+                            $('#kabupaten').html(msg);
+                            $('#kecamatan').html('');
+                            $('#desa').html('');
+                        },
+
+                        error : function(data){
+                            console.log('error', data);
+                        },
+
+                    })
+
+
+                  })
+
+                 })
+
+
+
+            });
+
+        </script> --}}
 
         <!-- SELECT2 JS -->
         <script src="{{asset('build/assets/plugins/select2/select2.full.min.js')}}"></script>

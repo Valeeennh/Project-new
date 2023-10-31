@@ -109,9 +109,9 @@
 													<div class="tab-pane active" id="side1">
 														<ul class="sidemenu-list">
 															<li><a class="slide-item" href="{{url('user')}}">Data User</a></li>
-															<li><a class="slide-item" href="{{url('index2')}}">Data Employee</a></li>
-															<li><a class="slide-item" href="{{url('index4')}}">Data Department</a></li>
-															<li><a class="slide-item" href="{{url('timer')}}">Data Company</a></li>
+															<li><a class="slide-item" href="{{url('employe')}}">Data Employee</a></li>
+															<li><a class="slide-item" href="{{url('department')}}">Data Department</a></li>
+															<li><a class="slide-item" href="{{url('company')}}">Data Company</a></li>
 														</ul>
 													</div>
 

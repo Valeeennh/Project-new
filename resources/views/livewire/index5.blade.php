@@ -16,7 +16,7 @@
                                 <div class="ms-auto">
                                     <div>
 
-                                        <a href="{{ url('adddepartment') }}" class="btn bg-warning-transparent text-warning btn-sm" data-bs-toggle="tooltip"
+                                        <a href="{{ url('addcompany') }}" class="btn bg-warning-transparent text-warning btn-sm" data-bs-toggle="tooltip"
                                             title="" data-bs-placement="bottom" data-bs-original-title="Add New">
                                             <span>
                                                 <i class="fa fa-plus"></i>
@@ -99,7 +99,7 @@
                                                                         <ul class="dropdown-menu dropdown-menu-end" role="menu">
 
                                                                             <li><a href="javascript:void(0);">Remove</a></li>
-                                                                            <li><a href="{{url('editdepartment')}}">Edit</a></li>
+                                                                            <li><a href="{{url('editcompany')}}">Edit</a></li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
